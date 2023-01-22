@@ -1,0 +1,41 @@
+.cardParent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image:url('../assets/wave\ \(1\).png') ;
+  background-repeat: no-repeat;
+}
+
+.card{
+width: 500px;
+height: 500px;
+border-radius: 20px;
+overflow: scroll;
+position: relative;
+background-color: white;
+box-shadow: 0 0 6px lightgrey;
+}
+.card h1{
+  text-align: center;
+  position: sticky;
+  top: 0;
+  padding: 2rem;
+  background-color: rgb(194, 192, 192);
+  z-index: 1;
+}
+.card::-webkit-scrollbar{
+  display: none;
+}
+.accountsMain{
+  padding: 1rem;
+
+}
+.accounts{
+  display: flex;
+  align-items: center;
+gap: 1rem;
+padding: 0.5rem 0;
+border-bottom: 0.3px solid grey;
+cursor: pointer;
+}
